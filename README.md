@@ -2,5 +2,5 @@
 
 **Usage:**
 
-./remake.sh <templatename>
+./remake.sh \<templatename\>
 
