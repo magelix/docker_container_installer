@@ -1,0 +1,7 @@
+# --name option of "docker create" command
+container_name="dummy"
+# lables in create command to control Traefik loadbalancer
+traefik="-l traefik.port=80"
+# docker create --name <containername> <optionstring> <traefikstring> <image>
+optionstring="--network test"
+image="nginx"
